@@ -1,0 +1,26 @@
+{
+  "name": "task-3",
+  "version": "1.0.0",
+  "description": "Creating a simple application that store users, using express, nodemon and ejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaovictor234/nodejs-tasks.git"
+  },
+  "author": "Joao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaovictor234/nodejs-tasks/issues"
+  },
+  "homepage": "https://github.com/joaovictor234/nodejs-tasks#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}

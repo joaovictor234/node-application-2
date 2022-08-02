@@ -1,0 +1,7 @@
+.users-main__container {
+  margin: 20px;
+}
+.users-item {
+  list-style: circle;
+  margin: 5px;
+}

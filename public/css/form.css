@@ -1,0 +1,31 @@
+.main-content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-form {
+  display: flex;
+  flex-direction: column;
+}
+.main-container {
+  display: flex;
+}
+.main-input {
+  width: 200px;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #333;
+}
+.main-button {
+  background-color: #4cfc69;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+}
+.main-button:hover {
+  background-color: #02cf24;
+}

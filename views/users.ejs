@@ -1,0 +1,22 @@
+<%- include('includes/header.ejs') %>
+<link rel="stylesheet" href="/css/list.css">
+</head>
+<body>
+
+  <%- include('includes/navigation.ejs') %>
+
+  <main class="users-main__container">
+    <h1>Users List</h1>
+  
+    <% if(users.length > 0) { %>
+      <ul class="users-list">
+      <% users.map(user => { %>
+        <li class="users-item"><%= user.username %></li>
+      <% })%>
+      </ul>
+    <% } else { %>
+      <h2>Não há usuários cadastrados!</h2>
+    <% } %>
+  </main>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.navigation-container {
+  background-color: #4cfc69;
+  display: flex;
+}
+.navigation-list {
+  display: flex;
+}
+.navigation-item {
+  list-style: none;
+  padding: 5px;
+  font-size: 17px;
+}
+.navigation-item:first-child {
+  margin-right: 50px;
+}
+.navigation-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+.active {
+  color: #beb204;
+}
